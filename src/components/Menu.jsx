@@ -1,6 +1,6 @@
-import ArrowDown from "../assets/icons/ArrowDown";
-import Hamburger from "../assets/icons/Hamburger";
 import MoreDropdown from "./MoreDropdown";
+
+import MobileMenu from "./MobileMenu";
 
 const Menu = () => {
     return (
@@ -32,15 +32,8 @@ const Menu = () => {
                 </ul>
             </div>
 
-            {/* Hamburger */}
-            <div className="md:hidden">
-                <Hamburger />
-            </div>
-
-            {/* Mobile Menu */}
-            <ul className="hidden">
-                <li></li>
-            </ul>
+            {/* Mobile */}
+            <MobileMenu />
         </div>
     );
 };
