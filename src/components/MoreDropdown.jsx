@@ -17,7 +17,7 @@ const MoreDropdown = () => {
             </button>
             {isOpen && (
                 <div
-                    className="bg-c-white absolute top-11 rounded-md pb-2"
+                    className="bg-c-white absolute top-10 rounded-md pb-2"
                     onMouseLeave={() => setIsOpen(false)}
                 >
                     {menuItems.map((item, index) => (

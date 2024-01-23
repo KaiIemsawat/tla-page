@@ -7,6 +7,7 @@ export default {
             "c-blue": "#0B2142",
             "c-orange": "#FD6E06",
             "c-white": "#f7f7f7",
+            "c-white-2": "#e2e8e9",
         },
     },
     plugins: [],
