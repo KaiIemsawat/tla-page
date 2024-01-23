@@ -1,5 +1,6 @@
 import Menu from "./components/Menu";
 import About from "./scenes/About";
+import Alumni from "./scenes/Alumni";
 import Home from "./scenes/Home";
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
             <Menu />
             <Home />
             <About />
+            <Alumni />
         </>
     );
 }
