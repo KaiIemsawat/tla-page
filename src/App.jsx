@@ -1,4 +1,5 @@
 import Menu from "./components/Menu";
+import About from "./scenes/About";
 import Home from "./scenes/Home";
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
         <>
             <Menu />
             <Home />
+            <About />
         </>
     );
 }

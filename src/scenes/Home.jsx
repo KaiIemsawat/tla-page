@@ -1,6 +1,6 @@
 const Home = () => {
     return (
-        <div className="w-full h-screen overflow-x-hidden">
+        <div className="w-full h-screen overflow-x-hidden" name="home">
             <div className="relative">
                 <div className="bg-c-blue w-[5000px] h-[1400px] rounded-[220px] rotate-[-8deg] z-[-1] absolute -top-[920px] md:-left-16 -left-32"></div>
                 <div className="md:max-w-[860px] lg:max-w-[1020px] px-8 mx-auto flex flex-col pt-[180px] h-full text-c-white z-1">

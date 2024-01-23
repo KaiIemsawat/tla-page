@@ -5,7 +5,7 @@ import Navbar from "./Navbar";
 
 const Menu = () => {
     return (
-        <div className="fixed w-full h-[64px] flex justify-between items-center bg-c-white px-4">
+        <div className="fixed w-full h-[64px] flex justify-between items-center bg-c-white px-4 z-10">
             {/* Top Menu */}
             <Navbar />
 
