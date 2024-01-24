@@ -105,6 +105,7 @@ const Alumni = () => {
                             className="max-h-[48px] md:max-h-none"
                             src={eaCom.imgLink}
                             alt="company-logo"
+                            key={eaCom.name}
                         />
                     ))}
                 </div>
