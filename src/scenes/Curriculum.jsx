@@ -9,8 +9,31 @@ const Curriculum = () => {
                         </h2>
                     </div>
                     <div></div>
-                    <div className="bg-c-blue w-full h-[128px] sm:h-[240px] md:h-full flex items-center justify-center rounded-md sm:mb-4">
-                        <p className="text-c-white">image here</p>
+                    {/* <div className="bg-c-blue w-full h-[128px] sm:h-[240px] lg:h-full flex items-center justify-center rounded-md sm:mb-4"> */}
+                    {/* <p className="text-c-white">image here</p> */}
+                    {/* </div> */}
+
+                    <div className="w-full h-[98px] sm:h-[140px] lg:h-full flex items-center justify-center md:mb-2">
+                        <div className="flex justify-between w-full h-full gap-1 sm:gap-3 text-c-blue font-bold sm:text-3xl lg:flex-col">
+                            <div className="w-full h-full bg-c-white text-center flex items-center justify-center border-r-4 border-c-orange">
+                                <div className="lg:flex lg:gap-4">
+                                    <p>70%</p>
+                                    <p>Hands on</p>
+                                </div>
+                            </div>
+                            <div className="w-full h-full bg-c-white text-center flex items-center justify-center border-r-4 border-c-orange">
+                                <div className="lg:flex lg:gap-4">
+                                    <p>20%</p>
+                                    <p>Theory</p>
+                                </div>
+                            </div>
+                            <div className="w-full h-full bg-c-white text-center flex items-center justify-center border-r-4 border-c-orange">
+                                <div className="lg:flex lg:gap-4">
+                                    <p>10%</p>
+                                    <p>Reflecction</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
                     <div className=" text-lg text-c-blue py-4 md:py-0">
@@ -37,13 +60,13 @@ const Curriculum = () => {
                         </button>
                     </div>
                 </div>
-                <div className="md:max-w-[860px] lg:max-w-[1020px] w-full mt-4">
+                {/* <div className="md:max-w-[860px] lg:max-w-[1020px] w-full mt-4">
                     <div className="flex justify-between">
-                        <div className="md:w-[240px] lg:w-[320px] md:h-[150px]  bg-c-white-2 rounded-md"></div>
-                        <div className="md:w-[240px] lg:w-[320px] md:h-[150px]  bg-c-white-2 rounded-md"></div>
-                        <div className="md:w-[240px] lg:w-[320px] md:h-[150px]  bg-c-white-2 rounded-md"></div>
+                        <div className="md:w-[240px] lg:w-[320px] md:h-[150px]  bg-c-white rounded-md"></div>
+                        <div className="md:w-[240px] lg:w-[320px] md:h-[150px]  bg-c-white rounded-md"></div>
+                        <div className="md:w-[240px] lg:w-[320px] md:h-[150px]  bg-c-white rounded-md"></div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     );
