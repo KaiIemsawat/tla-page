@@ -13,6 +13,10 @@ const Register = () => {
                         <h2 className="text-4xl sm:text-6xl font-semibold text-c-blue underline decoration-c-orange py-2">
                             Join an Info Session
                         </h2>
+                        <p className="text-c-blue font-light">
+                            Tech Lead Academy is opening new doors for people
+                            with no IT or coding background.
+                        </p>
                     </div>
                     <form className="flex flex-col" action="">
                         <div className="flex flex-col gap-3">
