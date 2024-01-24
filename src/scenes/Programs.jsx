@@ -4,8 +4,8 @@ const Programs = () => {
             <div className="flex flex-col justify-center items-center w-full h-full">
                 <div className="md:max-w-[860px] lg:max-w-[1020px] w-full md:grid md:grid-cols-2 gap-4">
                     <div></div>
-                    <div className="sm:text-start">
-                        <h2 className="text-4xl sm:text-6xl font-semibold text-c-blue underline decoration-c-orange py-4 md:py-0">
+                    <div className="text-end md:text-start">
+                        <h2 className="text-4xl sm:text-6xl font-semibold text-c-blue underline decoration-c-orange md:py-0">
                             Our Programs
                         </h2>
                     </div>
@@ -14,7 +14,7 @@ const Programs = () => {
                         <h3 className="text-3xl font-semibold pb-6">
                             Test Automation Engineer | SDET
                         </h3>
-                        <ul className="md:grid md:grid-cols-2">
+                        <ul className="grid grid-cols-2">
                             <li className=" border-r-4 border-c-orange pr-2 my-1">
                                 Java
                             </li>
@@ -48,6 +48,12 @@ const Programs = () => {
                     </div>
                     <div className="bg-c-blue w-full h-full flex items-center justify-center rounded-md">
                         <p className="text-c-white">image here</p>
+                    </div>
+                    <div></div>
+                    <div className="text-center md:text-start pt-3 md:pt-0">
+                        <p className="font-light">
+                            " When today is over, it will never come back "
+                        </p>
                     </div>
                 </div>
             </div>
