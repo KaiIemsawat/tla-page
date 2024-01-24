@@ -2,6 +2,7 @@ import Menu from "./components/Menu";
 import About from "./scenes/About";
 import Alumni from "./scenes/Alumni";
 import Home from "./scenes/Home";
+import Programs from "./scenes/Programs";
 
 function App() {
     return (
@@ -10,6 +11,7 @@ function App() {
             <Home />
             <About />
             <Alumni />
+            <Programs />
         </>
     );
 }

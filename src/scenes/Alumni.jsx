@@ -88,14 +88,18 @@ const Alumni = () => {
     ];
 
     return (
-        <div className="w-full h-screen px-8 my-[360px] md:my-0" name="about">
+        <div className="w-full h-screen px-8 my-[360px] md:my-0 " name="alumni">
             <div className="flex flex-col justify-center items-center w-full h-full">
                 <div className="md:max-w-[860px] lg:max-w-[1020px] w-full text-center py-8">
                     <h2 className="text-4xl sm:text-6xl font-semibold text-c-blue">
-                        Where our alumni work
+                        Where{" "}
+                        <span className="underline decoration-c-orange">
+                            our alumni
+                        </span>{" "}
+                        work
                     </h2>
                 </div>
-                <div className="flex items-center flex-wrap gap-4 justify-center">
+                <div className="flex lg:max-w-[1020px] items-center flex-wrap gap-4 md:gap-6 justify-center">
                     {companies.map((eaCom) => (
                         <img
                             className="max-h-[48px] md:max-h-none"
