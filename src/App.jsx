@@ -4,6 +4,7 @@ import Alumni from "./scenes/Alumni";
 import Curriculum from "./scenes/Curriculum";
 import Home from "./scenes/Home";
 import Programs from "./scenes/Programs";
+import Register from "./scenes/Register";
 import Testimonials from "./scenes/Testimonials";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
             <Programs />
             <Curriculum />
             <Testimonials />
+            <Register />
         </>
     );
 }

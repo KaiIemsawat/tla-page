@@ -52,7 +52,7 @@ const Curriculum = () => {
                             exciting career opportunities.
                         </p>
 
-                        <button className="mt-6 px-6 py-2 bg-c-orange rounded-md shadow-sm shadow-c-orange hover:shadow-lg hover:shadow-c-orange duration-500 text-c-white">
+                        <button className="mt-6 px-6 py-2 bg-c-orange rounded-md hover:text-c-blue hover:opacity-80 duration-500 text-c-white">
                             Join Now
                         </button>
                     </div>

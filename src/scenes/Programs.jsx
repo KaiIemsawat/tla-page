@@ -41,7 +41,7 @@ const Programs = () => {
                             </li>
                         </ul>
                         <div className="text-end">
-                            <button className="mt-2 px-6 py-2 bg-c-orange rounded-md shadow-sm shadow-c-orange hover:shadow-lg hover:shadow-c-orange duration-500 text-c-white">
+                            <button className="mt-2 px-6 py-2 bg-c-orange rounded-md hover:text-c-blue hover:opacity-80 duration-500 text-c-white">
                                 Course Details
                             </button>
                         </div>

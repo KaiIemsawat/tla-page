@@ -23,7 +23,7 @@ const About = () => {
                         <p>We have two courses:</p>
                         <p>1. Test Autoamtion Engineer/SDET course</p>
                         <p>2. Full-Stack Developer course</p>
-                        <button className="my-6 px-6 py-2 bg-c-orange rounded-md shadow-sm shadow-c-orange hover:shadow-lg hover:shadow-c-orange duration-500 text-c-white">
+                        <button className="my-6 px-6 py-2 bg-c-orange rounded-md hover:text-c-blue hover:opacity-80 duration-500 text-c-white">
                             Join Now
                         </button>
                     </div>

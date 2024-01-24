@@ -1,8 +1,7 @@
+@import "swiper/css";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@import "swiper/css";
 
 .swiper-pagination-bullet {
     width: 10px;

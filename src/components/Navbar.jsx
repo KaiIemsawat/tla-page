@@ -22,7 +22,7 @@ const Navbar = () => {
                         <MoreDropdown />
                     </li>
                     <li className="px-3 py-5 ">
-                        <button className="bg-c-orange px-3 py-2 font-semibold rounded-lg shadow-sm shadow-c-orange hover:shadow-c-orange hover:shadow-lg text-[#ffffff] duration-500">
+                        <button className="bg-c-orange px-3 py-2 font-semibold rounded-lg  text-[#ffffff] duration-500">
                             Apply Now
                         </button>
                     </li>
