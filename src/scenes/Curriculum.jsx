@@ -9,7 +9,7 @@ const Curriculum = () => {
                         </h2>
                     </div>
                     <div></div>
-                    <div className="bg-c-blue w-full h-[240px] lg:h-full flex items-center justify-center rounded-md sm:mb-4">
+                    <div className="bg-c-blue w-full h-[128px] sm:h-[240px] md:h-full flex items-center justify-center rounded-md sm:mb-4">
                         <p className="text-c-white">image here</p>
                     </div>
 
@@ -39,9 +39,9 @@ const Curriculum = () => {
                 </div>
                 <div className="md:max-w-[860px] lg:max-w-[1020px] w-full mt-4">
                     <div className="flex justify-between">
-                        <div className="w-[150px] md:w-[240px] lg:w-[320px] h-[150px] border border-1 border-c-orange rounded-md"></div>
-                        <div className="w-[150px] md:w-[240px] lg:w-[320px] h-[150px] border border-1 border-c-orange rounded-md"></div>
-                        <div className="w-[150px] md:w-[240px] lg:w-[320px] h-[150px] border border-1 border-c-orange rounded-md"></div>
+                        <div className="md:w-[240px] lg:w-[320px] md:h-[150px]  bg-c-white-2 rounded-md"></div>
+                        <div className="md:w-[240px] lg:w-[320px] md:h-[150px]  bg-c-white-2 rounded-md"></div>
+                        <div className="md:w-[240px] lg:w-[320px] md:h-[150px]  bg-c-white-2 rounded-md"></div>
                     </div>
                 </div>
             </div>

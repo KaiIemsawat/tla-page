@@ -46,7 +46,7 @@ const Programs = () => {
                             </button>
                         </div>
                     </div>
-                    <div className="bg-c-blue w-full h-full flex items-center justify-center rounded-md">
+                    <div className="bg-c-blue w-full h-[128px] sm:h-[240px] md:h-full flex items-center justify-center rounded-md">
                         <p className="text-c-white">image here</p>
                     </div>
                     <div></div>
