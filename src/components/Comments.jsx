@@ -1,4 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination } from "swiper/modules";
+import "swiper/css/pagination";
 import SwiperCore from "swiper";
 import { Navigation } from "swiper/modules";
 import "swiper/css/bundle";
@@ -45,18 +47,33 @@ const Comments = () => {
     ];
 
     return (
-        <div>
-            {comments.map((eaComment) => (
-                <div key={eaComment.commenter}>
-                    <div>
-                        <p>""</p>
-                    </div>
-                    <div>
-                        <p>{eaComment.comment}</p>
-                        <h3>{eaComment.commenter}</h3>
-                    </div>
-                </div>
-            ))}
+        <div className="py-2">
+            <Swiper
+                pagination={{
+                    dynamicBullets: true,
+                }}
+                loop
+                modules={[Pagination]}
+                className="mySwiper"
+            >
+                {comments.map((eaComment) => (
+                    <SwiperSlide key={eaComment.commenter}>
+                        <div className="grid grid-cols-7 gap-1 pb-6">
+                            <div className="col-span-1 ">
+                                <p className="font-extrabold text-8xl -mt-6 text-c-orange">
+                                    "
+                                </p>
+                            </div>
+                            <div className="text-start col-span-6 ">
+                                <p>{eaComment.comment}</p>
+                                <h3 className="pt-4 text-xl font-bold text-end">
+                                    {eaComment.commenter}
+                                </h3>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+                ))}
+            </Swiper>
         </div>
     );
 };
