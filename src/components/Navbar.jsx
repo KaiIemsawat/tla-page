@@ -1,4 +1,5 @@
 import MoreDropdown from "./MoreDropdown";
+import { Link as Scroll } from "react-scroll";
 
 const Navbar = () => {
     return (
@@ -9,16 +10,20 @@ const Navbar = () => {
             />
             <div>
                 <ul className="hidden md:flex md:items-center">
-                    <li className="px-3 py-5 font-semibold hover:bg-[#ffffff] duration-500">
-                        Home
+                    <li className="cursor-pointer px-3 py-5 font-semibold hover:bg-[#ffffff] duration-500">
+                        <Scroll to="home" smooth duration={500}>
+                            Home
+                        </Scroll>
                     </li>
-                    <li className="px-3 py-5 font-semibold hover:bg-[#ffffff] duration-500">
-                        Our Programs
+                    <li className="cursor-pointer px-3 py-5 font-semibold hover:bg-[#ffffff] duration-500">
+                        <Scroll to="programs" smooth duration={500}>
+                            Our Programs
+                        </Scroll>
                     </li>
-                    <li className="px-3 py-5 font-semibold hover:bg-[#ffffff] duration-500">
+                    <li className="cursor-pointer px-3 py-5 font-semibold hover:bg-[#ffffff] duration-500">
                         Contact Us
                     </li>
-                    <li className="py-5 font-semibold hover:bg-[#ffffff] duration-500">
+                    <li className="cursor-pointer py-5 font-semibold hover:bg-[#ffffff] duration-500">
                         <MoreDropdown />
                     </li>
                     <li className="px-3 py-5 ">
