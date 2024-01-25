@@ -2,6 +2,7 @@ import Menu from "./components/Menu";
 import About from "./scenes/About";
 import Alumni from "./scenes/Alumni";
 import Curriculum from "./scenes/Curriculum";
+import Footing from "./scenes/Footing";
 import Home from "./scenes/Home";
 import Programs from "./scenes/Programs";
 import Register from "./scenes/Register";
@@ -18,6 +19,7 @@ function App() {
             <Curriculum />
             <Testimonials />
             <Register />
+            <Footing />
         </>
     );
 }

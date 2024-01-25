@@ -5,6 +5,7 @@ import LgScreenRegister from "../components/LgScreenRegister";
 const Register = () => {
     const [screenWidth, setScreenWidth] = useState(window.innerWidth);
     const [isScreenLg, setIsScreenLg] = useState(false);
+    const [isScreenShort, setIsScreenShort] = useState(false);
     // console.log(isScreenLg);
 
     // console.log(screenWidth);
@@ -39,6 +40,12 @@ const Register = () => {
             } else {
                 setIsScreenTall(false);
             }
+
+            if (window.innerHeight < 650) {
+                setIsScreenShort(true);
+            } else {
+                setIsScreenShort(false);
+            }
         };
 
         window.addEventListener("resize", handleResize);
@@ -50,7 +57,9 @@ const Register = () => {
 
     return (
         <div
-            className="w-full h-screen overflow-hidden relative px-8"
+            className={`${
+                isScreenShort ? "pb-96" : ""
+            } w-full h-screen overflow-hidden relative px-8`}
             name="register"
         >
             <div
