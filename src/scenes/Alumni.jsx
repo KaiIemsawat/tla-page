@@ -88,7 +88,7 @@ const Alumni = () => {
     ];
 
     return (
-        <div className="w-full h-screen px-8 my-[360px] md:my-0 " name="alumni">
+        <div className="w-full h-3/5 px-8 my-[360px] md:my-0 " name="alumni">
             <div className="flex flex-col justify-center items-center w-full h-full">
                 <div className="md:max-w-[860px] lg:max-w-[1020px] w-full text-center py-8">
                     <h2 className="text-4xl sm:text-6xl font-semibold text-c-blue">

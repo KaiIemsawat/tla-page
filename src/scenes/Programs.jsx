@@ -1,6 +1,6 @@
 const Programs = () => {
     return (
-        <div className="w-full h-screen text-c-blue px-8 my-16" name="programs">
+        <div className="w-full h-3/5 text-c-blue px-8 my-16" name="programs">
             <div className="flex flex-col justify-center items-center w-full h-full">
                 <div className="md:max-w-[860px] lg:max-w-[1020px] w-full md:grid md:grid-cols-2 gap-4">
                     <div></div>

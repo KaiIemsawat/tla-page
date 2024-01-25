@@ -1,6 +1,34 @@
+import { useEffect, useState } from "react";
+
 const Home = () => {
+    const [screenHeight, setScreenHeight] = useState(window.innerHeight);
+    const [isScreenLg, setIsScreenLg] = useState(false);
+
+    useEffect(() => {
+        const handleResize = () => {
+            setScreenHeight(window.innerHeight);
+
+            if (window.innerHeight > 900) {
+                setIsScreenLg(true);
+            } else {
+                setIsScreenLg(false);
+            }
+        };
+
+        window.addEventListener("resize", handleResize);
+
+        return () => {
+            window.removeEventListener("resize", handleResize);
+        };
+    }, []);
+
     return (
-        <div className="w-full h-screen overflow-x-hidden" name="home">
+        <div
+            className={`${
+                isScreenLg ? "h-[900px]" : "h-screen"
+            } w-full  overflow-x-hidden`}
+            name="home"
+        >
             <div className="relative">
                 <div className="bg-c-blue w-[5000px] h-[1400px] rounded-[220px] rotate-[-8deg] z-[-1] absolute -top-[920px] md:-left-16 -left-32"></div>
                 <div className="md:max-w-[860px] lg:max-w-[1020px] px-8 mx-auto flex flex-col pt-[180px] h-full text-c-white z-1">

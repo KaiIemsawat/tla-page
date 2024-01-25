@@ -5,7 +5,7 @@ import LgScreenRegister from "../components/LgScreenRegister";
 const Register = () => {
     const [screenWidth, setScreenWidth] = useState(window.innerWidth);
     const [isScreenLg, setIsScreenLg] = useState(false);
-    console.log(isScreenLg);
+    // console.log(isScreenLg);
 
     // console.log(screenWidth);
 
@@ -33,7 +33,7 @@ const Register = () => {
             name="register"
         >
             <div className="flex flex-col justify-center items-center w-full h-full">
-                <div className="absolute bottom-0 left-1/2 transform -translate-x-1/3 translate-y-1/4 z-[-1]">
+                <div className="absolute bottom-0 left-1/2 transform -translate-x-1/3 translate-y-2/4 z-[-1]">
                     <div className="bg-c-blue w-[5000px] h-[1080px] rounded-[220px] rotate-[-8deg] "></div>
                 </div>
 

@@ -1,6 +1,6 @@
 const Curriculum = () => {
     return (
-        <div className="w-full h-screen bg-c-blue px-8" name="about">
+        <div className="w-full h-[900px] bg-c-blue px-8" name="about">
             <div className="flex flex-col justify-center items-center w-full h-full">
                 <div className="md:max-w-[860px] lg:max-w-[1020px] w-full lg:grid lg:grid-cols-2 gap-4">
                     <div className="sm:text-end flex flex-col justify-end">
