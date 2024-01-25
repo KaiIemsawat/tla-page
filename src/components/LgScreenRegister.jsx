@@ -1,20 +1,20 @@
 const LgScreenRegister = () => {
     return (
         <div className="md:max-w-[860px] lg:max-w-[1020px] w-full lg:grid lg:grid-cols-5 gap-4">
-            <div className="col-span-2 text-c-blue items-end lg:justify-end flex">
-                <h3 className="text-4xl font-semibold text-c-white">
+            <div className="col-span-2  items-end lg:justify-end flex flex-col text-c-white text-end">
+                <h3 className="text-4xl font-semibold ">
                     Join an Info Session
                 </h3>
+                <p className="font-light text-c-white-2">
+                    Tech Lead Academy is opening new doors for people with no IT
+                    or coding background.
+                </p>
             </div>
             <form className="flex flex-col col-span-3" action="">
                 <div className="text-end lg:text-start">
                     <h2 className="text-6xl font-semibold text-c-blue underline decoration-c-orange py-2">
                         Register
                     </h2>
-                    <p className="text-c-blue font-light">
-                        Tech Lead Academy is opening new doors for people with
-                        no IT or coding background.
-                    </p>
                 </div>
                 <div className="border p-3 border-c-orange rounded-md bg-c-white mt-4">
                     <div className="flex flex-col gap-3">

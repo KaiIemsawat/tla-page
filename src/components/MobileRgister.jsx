@@ -6,10 +6,6 @@ const MobileRgister = () => {
                     <h2 className="text-4xl sm:text-6xl font-semibold text-c-blue underline decoration-c-orange py-2">
                         Register
                     </h2>
-                    <p className="text-c-blue font-light">
-                        Tech Lead Academy is opening new doors for people with
-                        no IT or coding background.
-                    </p>
                 </div>
                 <div className="border p-3 border-c-orange rounded-md bg-c-white mt-4">
                     <div className="flex flex-col gap-3">
@@ -51,10 +47,14 @@ const MobileRgister = () => {
                     </button>
                 </div>
             </form>
-            <div className="col-span-2 items-end justify-end flex pt-4">
+            <div className="col-span-2 items-end justify-end flex flex-col pt-4 text-end">
                 <h3 className="text-3xl font-semibold text-c-white">
                     Join an Info Session
                 </h3>
+                <p className="text-c-white-2 font-light">
+                    Tech Lead Academy is opening new doors for people with no IT
+                    or coding background.
+                </p>
             </div>
         </div>
     );
