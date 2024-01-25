@@ -53,6 +53,7 @@ const Comments = () => {
                     dynamicBullets: true,
                 }}
                 loop
+                slidesPerView={3}
                 modules={[Pagination]}
                 className="mySwiper"
             >
