@@ -3,7 +3,7 @@ const MobileRgister = () => {
         <div className="md:max-w-[860px] lg:max-w-[1020px] w-full lg:grid lg:grid-cols-5 gap-4">
             <form className="flex flex-col col-span-3" action="">
                 <div className="text-end lg:text-start">
-                    <h2 className="text-4xl font-semibold text-c-blue underline decoration-c-orange py-2">
+                    <h2 className="text-4xl sm:text-6xl font-semibold text-c-blue underline decoration-c-orange py-2">
                         Register
                     </h2>
                     <p className="text-c-blue font-light">
