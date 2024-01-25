@@ -27,12 +27,37 @@ const Register = () => {
         };
     }, []);
 
+    const [screenHeight, setScreenHeight] = useState(window.innerHeight);
+    const [isScreenTall, setIsScreenTall] = useState(false);
+
+    useEffect(() => {
+        const handleResize = () => {
+            setScreenHeight(window.innerHeight);
+
+            if (window.innerHeight > 900) {
+                setIsScreenTall(true);
+            } else {
+                setIsScreenTall(false);
+            }
+        };
+
+        window.addEventListener("resize", handleResize);
+
+        return () => {
+            window.removeEventListener("resize", handleResize);
+        };
+    }, []);
+
     return (
         <div
             className="w-full h-screen overflow-hidden relative px-8"
             name="register"
         >
-            <div className="flex flex-col justify-center items-center w-full h-full">
+            <div
+                className={`${
+                    isScreenTall ? "h-[900px]" : "h-full"
+                } flex flex-col justify-center items-center w-full `}
+            >
                 <div className="absolute bottom-0 left-1/2 transform -translate-x-1/3 translate-y-2/4 z-[-1]">
                     <div className="bg-c-blue w-[5000px] h-[1080px] rounded-[220px] rotate-[-8deg] "></div>
                 </div>

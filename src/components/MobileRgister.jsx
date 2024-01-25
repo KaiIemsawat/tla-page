@@ -7,13 +7,13 @@ const MobileRgister = () => {
                         Register
                     </h2>
                 </div>
-                <div className="border p-3 border-c-orange rounded-md bg-c-white mt-4">
+                <div className="border p-3 border-c-blue rounded-md bg-c-white mt-4">
                     <div className="flex flex-col gap-3">
                         <label className=" mt-2 font-semibold text-c-blue text-xl">
                             Info Session - SDET
                         </label>
                         <select
-                            className="border border-c-orange rounded-md p-3  bg-c-white-2 bg-opacity-30 mb-4"
+                            className="border border-c-blue rounded-md p-3  bg-c-white-2 bg-opacity-30 mb-4"
                             name=""
                             id=""
                         >
@@ -24,7 +24,7 @@ const MobileRgister = () => {
                             <span className="font-bold text-c-orange">:</span>
                         </label>
                         <input
-                            className="border border-c-orange rounded-md p-3 text-c-orange bg-c-white-2 bg-opacity-30 mb-4"
+                            className="border border-c-blue rounded-md p-3 text-c-orange bg-c-white-2 bg-opacity-30 mb-4"
                             type="text"
                             name="name"
                             id=""
@@ -36,7 +36,7 @@ const MobileRgister = () => {
                             <span className="font-bold text-c-orange">:</span>
                         </label>
                         <input
-                            className="border border-c-orange rounded-md p-3 text-c-orange bg-c-white-2 bg-opacity-30 mb-4"
+                            className="border border-c-blue rounded-md p-3 text-c-orange bg-c-white-2 bg-opacity-30 mb-4"
                             type="email"
                             name="email"
                             id=""
@@ -47,11 +47,11 @@ const MobileRgister = () => {
                     </button>
                 </div>
             </form>
-            <div className="col-span-2 items-end justify-end flex flex-col pt-4 text-end">
-                <h3 className="text-3xl font-semibold text-c-white">
+            <div className="col-span-2 items-end justify-end flex flex-col pt-4 text-end text-c-orange">
+                <h3 className="text-3xl font-semibold ">
                     Join an Info Session
                 </h3>
-                <p className="text-c-white-2 font-light">
+                <p className="font-light">
                     Tech Lead Academy is opening new doors for people with no IT
                     or coding background.
                 </p>

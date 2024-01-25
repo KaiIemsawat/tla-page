@@ -16,13 +16,13 @@ const LgScreenRegister = () => {
                         Register
                     </h2>
                 </div>
-                <div className="border p-3 border-c-orange rounded-md bg-c-white mt-4">
+                <div className="border p-3 border-c-blue rounded-md bg-c-white mt-4">
                     <div className="flex flex-col gap-3">
                         <label className=" mt-2 font-semibold text-c-blue text-xl">
                             Info Session - SDET
                         </label>
                         <select
-                            className="border border-c-orange rounded-md p-3  bg-c-white-2 bg-opacity-30 mb-4"
+                            className="border border-c-blue rounded-md p-3  bg-c-white-2 bg-opacity-30 mb-4"
                             name=""
                             id=""
                         >
@@ -33,7 +33,7 @@ const LgScreenRegister = () => {
                             <span className="font-bold text-c-orange">:</span>
                         </label>
                         <input
-                            className="border border-c-orange rounded-md p-3 text-c-orange bg-c-white-2 bg-opacity-30 mb-4"
+                            className="border border-c-blue rounded-md p-3 text-c-orange bg-c-white-2 bg-opacity-30 mb-4"
                             type="text"
                             name="name"
                             id=""
@@ -45,7 +45,7 @@ const LgScreenRegister = () => {
                             <span className="font-bold text-c-orange">:</span>
                         </label>
                         <input
-                            className="border border-c-orange rounded-md p-3 text-c-orange bg-c-white-2 bg-opacity-30 mb-4"
+                            className="border border-c-blue rounded-md p-3 text-c-orange bg-c-white-2 bg-opacity-30 mb-4"
                             type="email"
                             name="email"
                             id=""
