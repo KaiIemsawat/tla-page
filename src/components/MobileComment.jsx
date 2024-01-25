@@ -5,7 +5,7 @@ import SwiperCore from "swiper";
 import { Navigation } from "swiper/modules";
 import "swiper/css/bundle";
 
-const Comments = () => {
+const MobileComment = () => {
     // SwiperCore.use([Navigation]);
 
     const comments = [
@@ -53,7 +53,6 @@ const Comments = () => {
                     dynamicBullets: true,
                 }}
                 loop
-                slidesPerView={3}
                 modules={[Pagination]}
                 className="mySwiper"
             >
@@ -78,4 +77,4 @@ const Comments = () => {
         </div>
     );
 };
-export default Comments;
+export default MobileComment;

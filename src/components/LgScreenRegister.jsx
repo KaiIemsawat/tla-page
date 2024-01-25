@@ -1,11 +1,11 @@
 const LgScreenRegister = () => {
     return (
         <div className="md:max-w-[860px] lg:max-w-[1020px] w-full lg:grid lg:grid-cols-5 gap-4">
-            <div className="col-span-2  items-end lg:justify-end flex flex-col text-c-white text-end">
+            <div className="col-span-2  items-end lg:justify-end flex flex-col text-c-orange text-end">
                 <h3 className="text-4xl font-semibold ">
                     Join an Info Session
                 </h3>
-                <p className="font-light text-c-white-2">
+                <p className="font-light ">
                     Tech Lead Academy is opening new doors for people with no IT
                     or coding background.
                 </p>
